@@ -3,19 +3,104 @@
 <head>
     <meta charset="UTF-8">
     <title>HW2.1</title>
+  <style>
+      *{
+          margin: 0;
+          padding: 0;
+      }
+      body{
+          background: #fff;
+      }
+      .list{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        height: 100vh;
+          gap: 50px;
+    }
+
+  .food{
+background-color: #fff;
+    border: 1px solid #766f6f;
+    height: 300px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 10px;
+      flex-direction: column;
+      gap: 10px;
+  }
+  h1{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-align: center;
+      padding: 40px;
+  }
+
+  h4{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-align: center;
+  }
+  .food img{
+    width: 80%;
+display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+
+  }
+  .food p{
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+      font-size: 25px;
+      font-weight: 600;
+  }
+  .coriander img{
+    height: 70%;
+  }
+
+  </style>
 </head>
 <body>
 <h1>What do I have in my fridge?</h1>
-<div class="food pepper"></div>
-<div class="food apple"></div>
-<div class="food cheese"></div>
-<div class="food corn"></div>
-<div class="food mushroom"></div>
-<div class="food garlic"></div>
-<div class="food beef"></div>
-<div class="food fish"></div>
-<div class="food eggs"></div>
-<div class="food coriander"></div>
-<h6>... that's all...</h6>
+<div class="list">
+    <div class="food pepper"><img
+            src="https://image.similarpng.com/file/similarpng/thumbnail/thumbnail-48acb582-36f2-4cba-be1e-2e1677b28817.png"
+            alt="pepper">
+        <p>Pepper</p></div>
+    <div class="food apple"><img
+            src="https://www.clipartmax.com/png/middle/88-883796_apple-clipart-no-background-apple-png-transparent-background.png"
+            alt="apple"><p>Apple</p></div>
+    <div class="food cheese"> <img
+            src="https://toppng.com/uploads/preview/cheese-11563252891bm45ogwfjt.png" alt="cheese"><p>Cheese</p></div>
+    <div class="food corn"><img
+            src="https://image.similarpng.com/file/similarpng/very-thumbnail/2020/08/Illustration-of-Sweet-corn-on-transparent-background-PNG.png"
+            alt="corn"><p>Corn</p></div>
+    <div class="food mushroom"> <img
+            src="https://png.pngtree.com/png-vector/20241226/ourlarge/pngtree-3d-vibrant-red-and-white-mushroom-on-transparent-background-png-image_14888732.png"
+            alt="mushroom"><p>Mushroom</p></div>
+    <div class="food garlic"> <img
+            src="https://image.similarpng.com/file/similarpng/very-thumbnail/2020/08/Fresh-garlic-on-transparent-background-PNG.png"
+            alt="garlic"><p>Garlic</p></div>
+    <div class="food beef"><img
+            src="https://image.similarpng.com/file/similarpng/very-thumbnail/2021/06/Fresh-raw-meat-on-transparent-background-PNG.png"
+            alt="beef"><p>Beef</p> </div>
+    <div class="food fish"> <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRt6zyljMaRI6ANUnwg9bgHPJntN-kWHE3t0Q&s"
+            alt="fish"><p>Fish</p></div>
+    <div class="food eggs"> <img
+            src="https://image.similarpng.com/file/similarpng/very-thumbnail/2021/10/Eggs-isolated-on-transparent-background-PNG.png"
+            alt="eggs"><p>Eggs</p></div>
+    <div class="food coriander"> <img
+            src="https://images.rawpixel.com/image_png_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvcm01MDYtZWxlbWVudHMtMDMwLWt6ejc3aGRjLnBuZw.png"
+            alt="coriander"><p>Coriander</p></div>
+</div>
+<hr>
+<h4>... that's all...</h4>
 </body>
 </html>
