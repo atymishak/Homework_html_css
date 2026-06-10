@@ -2,19 +2,37 @@ body{
     background-color: darkgreen;
 }
 .container{
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+
 
 }
 .month{
+    height: 200px;
+    width: 220px;
     border: 1px black solid;
     background-color: #a1cfa1;
-    justify-content: space-around;
+    justify-content: center;
     align-items:center;
-    display: flex;
     gap: 10px;
     flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+
+}
+h4{
+    text-align: left;
+    padding-left: 15px;
+}
+.month p{
+    text-align: left;
+    display: flex;
+    margin: 13px 0;
+    padding-left: 15px;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 13px;
 
 }
