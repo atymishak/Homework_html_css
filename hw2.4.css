@@ -1,0 +1,37 @@
+body{
+    background-color: whitesmoke  ;
+}
+.box{
+    background-color: darksalmon ;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 150px;
+}
+.fonts{
+    justify-content: space-between;
+}
+.box p{
+    text-align: center;
+    padding: 8px 8px 8px 8px;
+}
+.one{
+    font-family: "Rubik Pixels", system-ui;
+    font-weight: 400;;
+}
+.two{
+    font-family: "Sedgwick Ave Display", cursive;
+    font-weight: 400;
+}
+.three{
+    font-family: "Dancing Script", cursive;
+}
+.four{
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+}
+.five{
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+}
