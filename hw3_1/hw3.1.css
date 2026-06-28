@@ -1,0 +1,60 @@
+body{
+    margin: 2%;
+}
+
+/*---header----*/
+header{
+    background-color: dodgerblue;
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 70;
+    font-style: normal;
+    color: white;
+    font-size: 65px;
+}
+/*--div----*/
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+    padding: 2% 0;
+}
+section{
+    height: 50vh;
+    width: 32%;
+    background-color: #1d589a;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 70;
+    font-style: normal;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*footer*/
+footer{
+    background-color: dodgerblue;
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 70;
+    font-style: normal;
+    color: white;
+    font-size: 65px;
+}
