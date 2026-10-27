@@ -74,6 +74,13 @@ margin:100px auto 20px auto;
     margin-bottom: 17px;
     font-family: "IBM Plex Sans Devanagari", sans-serif;
 }
+input[type=submit]:hover{
+    background-color: #27a8fd;
+}
+input[type=submit]:active{
+    background-color: #0065bc;
+}
+
 .login p{
     color: grey;
     font-size: 16px;
