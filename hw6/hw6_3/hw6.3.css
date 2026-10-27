@@ -1,0 +1,21 @@
+/*---first block---*/
+.first-block ul li:nth-child(even){
+    color: pink;
+}
+/*----second block----*/
+.second-block ul li:nth-child(odd){
+    font-size: 22px;
+}
+/*--third block---*/
+.third-block ul li:nth-child(2n+4)::after{
+    content:"!";
+    font-weight: bold;
+}
+.forth-block ul li:last-child{
+    color: purple;
+}
+.fifth-block ul li:first-letter{
+    color: red;
+    font-size: 30px;
+
+}
