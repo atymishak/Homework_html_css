@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+body{
+    width: 100%;
+}
+
+/*------------header----------*/
+header {
+    background: #24204A;
+    width: 100%;
+    height: 113px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
+
+
+}
+header .header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+}
+
+.header-container h3{
+    color: #E5E5E5;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    opacity: 0.6;
+    margin-left: 115px;
+    margin-top: 48px;
+}
+.header-container nav ul{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top: 51px;
+    gap: 63px;
+    color: #FFF;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    opacity: 0.6;
+    margin-right: 115px;
+}
+/*nav li a:link{
+    color: #FFF;
+    text-decoration: none;
+}*/
+nav li a:visited{
+    color: #FFF;
+    text-decoration: none;
+}
+
+
+/*------------section for 1 page--------*/
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 170px;
+    height: 692px;
+    width: 1400px;
+    background: #24204A;
+
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.posotion{
+    border-radius: 8px;
+    background: #4B4864;
+    width: 145px;
+    height: 41px;
+    opacity: 0.6;
+    border: none;
+}
+
+.container h2{
+    width: 261px;
+    color: #FFF;
+    font-family: "Inter", sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 32px;
+}
+
+.section-p{
+    width: 570px;
+    height: 85px;
+    color:#8E88C1;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%; /* 20.8px */
+    opacity: 0.6;
+    margin-top: 32px;
+}
+.about{
+    width: 200px;
+    height: 56px;
+    border-radius: 8px;
+    background: #3F50E7;
+    border: none;
+
+    /* 1 */
+    box-shadow: 0 6px 20px 0 rgba(0, 255, 224, 0.20);
+    margin-top: 32px;
+    color: #FFF;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+section img{
+    width: 375px;
+    height: 411px;
+    border-radius: 8px;
+    background: #827EAC;
+    box-shadow: 0 4px 50px 0 rgba(0, 0, 0, 0.25);
+    display:flex;
+    justify-content:center;
+    align-items:flex-end;
+}
+
+
+/*--------page 2-------*/
+
+.page-2{
+    background: #071341;
+    width: 1400px;
+    height: 764px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 62px 115px 152px 114px ;
+}
+
+.icon-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+
+.list-icon{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.icon-coral{
+    margin-right: 15px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width: 57px;
+    height: 56px;
+    border-radius: 8px;
+    background: #FF6853;
+}
+.icon-pink{
+    margin-right: 15px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width: 57px;
+    height: 56px;
+    border-radius: 8px;
+    background: #FF537C;
+}
+.icon-blue{
+    margin-right: 15px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width: 57px;
+    height: 56px;
+    border-radius: 8px;
+    background: #80D2C4;
+}
+.icon-purple{
+    margin-right: 15px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width: 57px;
+    height: 56px;
+    border-radius: 8px;
+    background: #3F50E7;
+}
+.icon-green{
+    margin-right: 15px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width: 57px;
+    height: 56px;
+    border-radius: 8px;
+    background: #95CB7C;
+}
+
+.icon-text p{
+    color: #FFF;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.icon-text h6{
+    color: #8E88C1;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+
+}
+
+
+
+
+
+
+
+
